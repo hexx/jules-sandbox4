@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A npm:vite",
+    "build": "deno run -A npm:vite build",
+    "test": "deno run -A npm:vitest run --reporter verbose"
+  },
+  "imports": {
+    "vite": "npm:vite",
+    "@deno/vite-plugin": "npm:@deno/vite-plugin"
+  }
+}
